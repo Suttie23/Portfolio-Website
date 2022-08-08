@@ -187,6 +187,7 @@
       <div class="row">
         <div class="col-sm-3" id="exp_ed">
           <h1 class="mb-3" style="color:#00B2D6;">Experience and Education</h1>
+          <p>Swipe or click through to see my education and experiences!</p>
         </div>
         <div class="col-sm-9">
           <iframe
@@ -244,7 +245,7 @@
               <a href="#!">
                 <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                   <div class="d-flex justify-content-center align-items-center h-100">
-                    <p class="text-white mb-0">ECFleetmaster</p>
+                    <p class="text-white mb-0">EC Fleetmaster</p>
                   </div>
                 </div>
                 <div class="hover-overlay">
@@ -383,16 +384,50 @@
   <!-- Slick -->
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
+  <!-- Media Query for Slick Carousel -->
+  <style>
+    /* Default height for small devices */
+    #exp_ed {
+      margin-top: 0%;
+    }
+
+    /* Height for devices larger than 500px */
+    @media (min-width: 575px) {
+      #exp_ed {
+        margin-top: 15%;
+      }
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {}
+  </style>
+
   <!-- Custom scripts -->
   <script type="text/javascript">
-    $(document).ready(function () {
-      $('.slider').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
+    var w = document.documentElement.clientWidth || window.innerWidth;
+    if (w <= 485) {
+
+      $(document).ready(function () {
+        $('.slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        });
       });
-    });
+
+    } else {
+
+      $(document).ready(function () {
+        $('.slider').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
+      });
+
+    } 
   </script>
+
 </body>
 
 </html>
