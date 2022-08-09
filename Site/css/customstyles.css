@@ -1,0 +1,20 @@
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #616161;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #00B2D6;
+}
+
+/* change the button color */
+.btn-outline-custom {
+    color: white;
+}
+
+/* change the color of active or hovered buttons */
+.btn-outline-custom:hover {
+    color: #00B2D6;
+}
