@@ -18,3 +18,13 @@
 .btn-outline-custom:hover {
     color: #00B2D6;
 }
+
+/* change the color of slick carousel buttons */
+.slick-prev:before {
+    color: #00B2D6 !important;
+    background-color: #eee;
+  }
+  .slick-next:before {
+    color: #00B2D6 !important;
+    background-color: #eee;
+  }
