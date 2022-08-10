@@ -199,19 +199,20 @@
     </div>
 
     <div class="p-5 text-center bg-white d-block d-sm-none" id="expsmall"
-    style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
-    <div class="row">
-      <div class="col-sm-3" id="exp_ed">
-        <h1 class="mb-3" style="color:#00B2D6;">Experience and Education</h1>
-        <p>Screen is too small for timeline, please view my linkedin to see my Experience and Education or rotate your phone!</p>
-      </div>
-      <div class="col-sm-9">
-        <a class="text-reset me-3" href="https://www.linkedin.com/in/michael-suttie-6864991a1/">
-          <i class="fa-brands fa-linkedin fa-10x" style="color:#00B2D6;"></i>
-        </a>
+      style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+      <div class="row">
+        <div class="col-sm-3" id="exp_ed">
+          <h1 class="mb-3" style="color:#00B2D6;">Experience and Education</h1>
+          <p>Screen is too small for timeline, please view my linkedin to see my Experience and Education or rotate your
+            phone!</p>
+        </div>
+        <div class="col-sm-9">
+          <a class="text-reset me-3" href="https://www.linkedin.com/in/michael-suttie-6864991a1/">
+            <i class="fa-brands fa-linkedin fa-10x" style="color:#00B2D6; margin-left: 6%;"></i>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
 
     <!-- End of Education & Experience Section -->
 
@@ -243,6 +244,24 @@
               </a>
             </div>
             <!-- Baguette Her Back! -->
+
+            <!-- Pod Eachdraidh -->
+            <div class="bg-image ripple hover-zoom" data-mdb-ripple-color="light">
+              <img src="img/pod.jpg" class="w-100" style="z-index:2 ;" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                  <div class="d-flex justify-content-center align-items-center h-100">
+                    <button type="button" class="btn btn-outline-dark text-white" data-mdb-ripple-color="dark"
+                      data-mdb-toggle="modal" data-mdb-target="#podmodal"
+                      style="width: 100%; height: 100%; z-index:1 ;">Pod Eachdraidh</button>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </div>
+              </a>
+            </div>
+            <!-- Pod Eachdraidh -->
 
             <!-- Webflix -->
             <div class="bg-image ripple hover-zoom" data-mdb-ripple-color="light">
@@ -420,11 +439,13 @@
           <div class="row">
             <div class="row">
               <div class="col-2"></div>
-              <div class="col-8">
-                <video width="70%" height="100%" controls>
-                  <source src="vids/baguettepreview.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
+              <div class="col-8 d-none d-sm-block">
+                <iframe src='https://www.youtube.com/embed/caRkt_oRNpw?controls=1&mute=1' width='75%' height='650'
+                  webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+              </div>
+              <div class="col-8 text-center d-block d-sm-none">
+                <iframe src='https://www.youtube.com/embed/caRkt_oRNpw?controls=1&mute=1' width='100%' height='100%'
+                  webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
               </div>
               <div class="col-2"></div>
               <div class="col-sm-2"></div>
@@ -436,7 +457,7 @@
                   with nothing but your skill and patience as you try to
                   progress through a world where fighting back is not an option for you, but hey, at yeast you’ve got
                   legs. Any character additions or modifiers will come
-                  strictly through the levels, no shops or money systems as frankly you don’t have the time or resources
+                  strictly through the levels, no shopsr or money systems as frankly you don’t have the time or resources
                   to make any dough. Rye-s to the occasion and
                   get back what was wrongfully taken from you, but most of all have fun, no-one likes a sourdough."
                   </br>
@@ -513,7 +534,7 @@
               <div class="col-2"></div>
               <div class="col-sm-2"></div>
               <div class="col-sm-8">
-                <h1 class="mt-3" style="color:#00B2D6;" id="about_me">Webflix Streaming</h1>
+                <h1 class="mt-3" style="color:#00B2D6;" id="about_me">Webflix</h1>
                 <p class="">
                   The WebFlix Application was my HND Year 2 graded unit and involved creating a streaming site that
                   included; A login / registration system, PayPal Sandbox Support, a backend Admin CMS and a supporting
@@ -850,6 +871,96 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <!-- End of project information -->
+          <div class="modal-footer">
+            <button type="button" class="btn text-white" data-mdb-dismiss="modal"
+              style="background-color:#00B2D6;">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pod Eachdraidh -->
+  <div class="modal fade" id="podmodal" tabindex="-1" aria-labelledby="podModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- project information -->
+        <div class="p-5 text-center bg-light"
+          style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+          <div class="row">
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-8">
+                <img src="img/modalimgs/pod.jpg" class="img-fluid" alt="Wild Landscape" />
+              </div>
+              <div class="col-2"></div>
+              <h1 class="mt-3" style="color:#00B2D6;" id="about_me">Pod Eachdraidh</h1>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                <p class="">
+                  The Pod-Eachdraidh team was formed in November of 2021 and consisted of four sound design students,
+                  and a software engineering student. In January, the team had their first meeting with the
+                  clients. The project was discussed, and the project ambitions and ideas were put forward.
+                  </br>
+                  </br>
+                  The aim of the project was to turn the physical war diary of Malvern resident "Lorna Lloyd" into a
+                  podcast that was easy to access - in addition to brining the diary to light, the clients would be
+                  using the podcast and its impact on those that
+                  listened to them as well as using us as a case study to see how handling the diaries impacted out
+                  impression of the time period.
+                  </br>
+                  </br>
+                  The team consisted of two parts and was a multi-disciplinary team. The sound design team (consisting
+                  of 4 members) and the web development team which consisted of myself. While I was able to provide
+                  input to the sound design given I have a brief background in sound,
+                  I left the practical aspect to them given their expertise.
+                  </br>
+                  </br>
+                  I was responsible to creating an RSS script to distribute the podcast once it was complete, this feed
+                  was used for a lenghty period of time, however, the clients later
+                  expressed interest in having a more flexible method that didn't require any work from a programmer, so
+                  I pitched RSS.com as a hosting service / RSS generator which was later adopted in place of the
+                  original script.
+                  </br>
+                  </br>
+                  Additionally, I was working alongside the Malvern Museum web team at <a
+                    href="https://nepeta.co.uk">Nepeta</a> in order to develop the required pages for their existing
+                  wordpress site. The design and creation of the Lorna Lloyd pages fell to me, which can be found in the
+                  link below as well as the podcasts should anyone be interested!
+                  </br>
+                  </br>
+                  Our project was shortlisted out of hundreds of others into a group of 5 to present at Computershare
+                  Edinburgh in front of their team and the other groups - details of which can be found below!
+                </p>
+                <div class="row mt-4" style="color:#00B2D6 ;">
+                  <div class="col-sm-4">
+                    <a class="text-reset me-3" href="https://malvernmuseum.co.uk/lorna-lloyds-diary-of-the-war/"
+                      target="_blank">
+                      <i class="fa-solid fa-museum"></i>
+                      <p>Malvern Site - Lorna Lloyd</p>
+                    </a>
+                  </div>
+                  <div class="col-sm-4">
+                    <a class="text-reset me-3" href="https://rss.com/podcasts/lornalloyd/" target="_blank">
+                      <i class="fa-solid fa-podcast"></i>
+                      <p>Podcast</p>
+                    </a>
+                  </div>
+                  <div class="col-sm-4">
+                    <a class="text-reset me-3" href="https://www.blipfoto.com/entry/2971136479645928019"
+                      target="_blank">
+                      <i class="fas fa-desktop"></i>
+                      <p>Presentation</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2"></div>
             </div>
           </div>
           <!-- End of project information -->
